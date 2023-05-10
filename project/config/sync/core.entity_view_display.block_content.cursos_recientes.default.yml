@@ -1,0 +1,22 @@
+uuid: 3fbccac4-5fd6-409d-b2d6-f5c8d2b646fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cursos_recientes
+    - field.field.block_content.cursos_recientes.field_cursos_recientes
+id: block_content.cursos_recientes.default
+targetEntityType: block_content
+bundle: cursos_recientes
+mode: default
+content:
+  field_cursos_recientes:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

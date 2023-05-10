@@ -1,0 +1,8 @@
+uuid: 24325719-ef16-4701-b373-1ba8082e7180
+langcode: en
+status: true
+dependencies: {  }
+name: cursos
+vid: cursos
+description: ''
+weight: 0
